@@ -1,6 +1,18 @@
 # scip-typescript
 
-[SCIP](https://github.com/sourcegraph/scip) indexer for TypeScript and JavaScript.
+[SCIP](https://github.com/sourcegraph/scip) indexer for TypeScript and JavaScript.\
+
+
+
+### Local Build
+
+```sh
+npm i
+npm run build
+```
+
+### Important Files
+The contents of `/src/FileIndexer.ts` contains the parsing/mapping of typescript code to the SCIP format.
 
 ## Quick start
 
